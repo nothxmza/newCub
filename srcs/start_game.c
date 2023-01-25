@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   start_game.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: hterras <hterras@student.42.fr>            +#+  +:+       +#+        */
+/*   By: jeremybarette <jeremybarette@student.42    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/10/24 14:05:25 by jbarette          #+#    #+#             */
-/*   Updated: 2022/11/18 16:13:22 by hterras          ###   ########.fr       */
+/*   Updated: 2023/01/25 14:19:15 by jeremybaret      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -30,8 +30,7 @@ void verLine(int x, int drawStart, int drawEnd, t_params *params)
 {
 	while (drawStart < drawEnd)
 	{
-		
-			my_mlx_pixel_put(&params->img, x, drawStart, 0xFFFFFF);
+		my_mlx_pixel_put(&params->img, x, drawStart, 0xFFFFFF);
 		drawStart++;
 	}
 }
